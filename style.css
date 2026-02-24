@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+}
+
+nav {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#quiz-box, #result-box, #api-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background: #2980b9;
+}
+
+#next-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #27ae60;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result-box button {
+    margin: 8px 5px;
+    padding: 10px 15px;
+    background: #8e44ad;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result-box button:hover {
+    background: #6c3483;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+
+    nav h1 {
+        font-size: 20px;
+    }
+}
